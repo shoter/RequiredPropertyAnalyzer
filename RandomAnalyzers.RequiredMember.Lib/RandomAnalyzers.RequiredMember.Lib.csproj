@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RandomAnalyzers.RequiredMember.Lib</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>RandomAnalyzers.RequiredMember</PackageId>
+    <Authors>Shoter</Authors>
+    <Product>RandomAnalyzers.RequiredMember</Product>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Company>Shoter</Company>
+    <Description>Provides RequiredMemberAttribute used to mark members of given classes/structs as required members. Members annotated with this attribute will be required inside object initializer.</Description>
+    <Copyright>Shoter © Calendar.GetYear()</Copyright>
+    <PackageProjectUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty</RepositoryUrl>
+    <PackageTags>RandomAnalyzers.RequiredMember, analyzers, RandomAnalyzers, RequiredMember</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RootNamespace>RandomAnalyzers.RequiredMember</RootNamespace>
+    <PackageReleaseNotes>1.0.0:
+Initial release
+
+0.1.0:
+
+Test upload</PackageReleaseNotes>
+    <RepositoryType>Github</RepositoryType>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RandomAnalyzers.RequiredMember.Analyzer" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
