@@ -41,4 +41,4 @@ var variable = new Test() {};
 
 ## UI Example
 
-![Screenshot showing warnings for RequiredMember.Analyzer](https://github.com/shoter/RandomAnalyzers/raw/master/RandomAnalyzers.RequiredProperty/imgs/Example.png)
+![Screenshot showing warnings for RequiredMember.Analyzer](https://github.com/shoter/RequiredPropertyAnalyzer/raw/master/imgs/Example.png)
